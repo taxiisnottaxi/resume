@@ -189,7 +189,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .userCard > footer.media > a {
-    border: 1px solid black;
     display: inline-block;
     width: 40px;
     line-height: 30px;
@@ -206,7 +205,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 30px;
     height: 30px;
     fill: white;
-    margin: 0 60px;
     vertical-align: top;
 }
 
