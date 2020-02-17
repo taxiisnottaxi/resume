@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <title>糖糖的博客</title>
-    <link rel="stylesheet" href="./a.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./loading.css">
     <script src="https://at.alicdn.com/t/font_1629496_5omfuxwllig.js"></script>
     <style type="text/css">
         .icon {
@@ -11,9 +12,13 @@
            fill: currentColor;
            overflow: hidden;
         }
+        
     </style>
 </head>
 <body>
+    <div id="siteWelcome" class="site-welcome active">
+        <div class="loading"></div>
+    </div>
     <div class="topNavBar">
         <div class="topNavBar-inner clearfix">
             <a class="logo" href="#" alt="logo" style="float: left;">
@@ -167,7 +172,7 @@
             }
         </script>
 
-        <div class="works" style="heigt: 597px;">
+        <div class="works" style="height: 597px;">
             <div class="big" style="top: 0; left: 0;">
                 <img src="./img/1.jpg" alt="1">
             </div>
@@ -179,5 +184,9 @@
             </div>
         </div>
     </section>
+    <script>
+        siteWelcome = document.getElementById('siteWelcome')
+        siteWelcome.classList.remove('active')
+    </script>
 </body>
 </html>

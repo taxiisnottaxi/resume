@@ -18,8 +18,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal;}
 .topNavBar .logo .card {color: #9A9DA2;}
 
 .banner{height: 515px;background-image: url(./img/rs-cover.jpg);background-position: center center;background-size: cover;}
-.banner .mask {height: 515px;background-color:rgba(0,0,0,0.8);
-}
+.banner .mask {height: 515px;background-color:rgba(0,0,0,0.8);}
 
 .userCard {max-width: 940px;margin-left: auto;margin-right: auto;background-color: #FFFFFF;box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);}
 .userCard .welcome {background: #E6686A;color: white;display: inline-block;padding: 4px 16px;line-height: 22px;position: relative;margin-bottom: 10px;}
@@ -66,8 +65,3 @@ section.portfolio > nav .bar.state-2 .bar-inner {margin-left: 65px;width: 50px}
 section.portfolio > nav .bar.state-3 .bar-inner {margin-left: 140px;width: 96px}
 section.portfolio .works{position: relative;}
 section.portfolio .works > div{position: absolute;}
-
-.loading{width: 200px;height: 200px;border: 1px solid black;position: relative;}
-.loading::before,.loading::after{content: '';position: absolute;width: 0px;height: 0px;background: black;border-radius: 50%;top: 0;left: 0;bottom: 0;right: 0;margin: auto;animation: s 1.5s linear infinite;}
-.loading::after{animation-delay: 0.75s;}
-@keyframes s{0%{width: 0px;height: 0px; opacity: 1;}100%{width: 100px; height: 100px; opacity: 0;}}
