@@ -45,7 +45,8 @@
         },
         
         loadMessages: function(){
-            this.model.fetch().find()
+            console.log(this.model.fetch())
+            this.model.fetch()
                 .then((messages) => {
                     let array = messages.map((item)=> item.attributes)
                     array.forEach((item)=>{
@@ -80,18 +81,3 @@
 
     controller.init(view, model)
 }.call()
-
-
-/*
-// 创建TestObject表
-var TestObject = AV.Object.extend('TestObject');
-// 在表中创建一行数据
-var testObject = new TestObject();
-// 数据类容是"Hello word!"
-// 如果
-testObject.set('words', 'Hello world!');
-testObject.save().then(function (testObject) {
-  console.log('保存成功。')
-})
-*/
-
