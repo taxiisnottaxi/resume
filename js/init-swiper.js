@@ -1,6 +1,6 @@
 !function(){
   // 我们拿到这个view
-  var view = document.querySelector('#mySlides')
+  var view = window.View('#mySlides')
   var controller = {
     view: null,
     swiper: null,
