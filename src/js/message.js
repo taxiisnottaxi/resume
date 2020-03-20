@@ -1,3 +1,4 @@
+
 !function(){
     var view = View('section.message')
 
